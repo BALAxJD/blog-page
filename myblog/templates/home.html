@@ -1,0 +1,66 @@
+{% extends "index.html" %} {%load static%}
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css"
+    integrity="sha384-yourGeneratedHash"
+    crossorigin="anonymous"
+  />
+
+  <!-- Use only one version of Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  {%block content %}
+  <div id="space"></div>
+  <div id="blog-post">
+    <a href="{%url 'blog1'%}">
+      <article class="blog-post">
+        <img
+          src="https://t4.ftcdn.net/jpg/01/31/03/51/360_F_131035102_WXWeB8gtI0x6YtH2LNenItnCz2NMbTFx.jpg"
+          alt="Blog Post Image"
+        />
+        <h2>Lorem-what and where is it come from?</h2>
+      </article>
+    </a>
+  </div>
+  <a href="{%url 'blog1'%}">
+    <article class="blog-post">
+      <img src="https://via.placeholder.com/800x400" alt="Blog Post Image" />
+
+      <h2>
+        Sed auctor magna eget ipsum malesuada, a fringilla dui gravida. Maecenas
+        ut efficitur mi. Fusce malesuada lacus ac magna hendrerit, vitae
+        fringilla lacus accumsan. Praesent tempor odio ac lectus posuere, a
+        consequat nisi eleifend.
+      </h2>
+    </article>
+  </a>
+
+  {% endblock %}
+</body>
