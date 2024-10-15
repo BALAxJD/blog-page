@@ -1,4 +1,4 @@
-{% extends "index.html" %} {%load static%}
+{% extends "index.html" %} {% load static %}
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,71 +30,319 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
     rel="stylesheet"
   />
+  <style>
+    .entry-content {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      padding: 15px;
+      border: 1px solid #ddd; /* Optional: Add a border */
+      border-radius: 5px; /* Optional: Add rounded corners */
+      margin-bottom: 20px; /* Optional: Add space between entries */
+    }
+  </style>
 </head>
+
 <body>
-  {%block content%}
+  {% block content %}
+  <br />
+  <br /><br /><br />
   <div id="space"></div>
   <div class="container">
     <div class="page-header">
       <div>
         <h1 class="text-primary">
-            Lorem-what and where is it come from?
+          Top 10 Most Populated and Densely Inhabited Cities Around the World in
+          2024
         </h1>
+        <hr />
+        <h4>
+          In 2024, the most populated cities include Tokyo, Delhi, and Shanghai,
+          with millions of people contributing to their rapid urban growth and
+          development.
+        </h4>
       </div>
     </div>
+
     <div class="row">
       <div class="col-md-8">
-        <article id="">
+        <!-- City 1: Tokyo -->
+        <article id="tokyo">
           <header>
             <h2>
-              <p>What is Lorem Ipsum?</p>
+              <p>1. Tokyo, Japan</p>
             </h2>
           </header>
           <div class="entry-content">
-            <a href="">
-              <img src="http://placehold.it/750x420" alt="" class="img-fluid" />
-            </a>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
-            </p>
+            <img
+              src="https://as1.ftcdn.net/v2/jpg/04/98/23/10/1000_F_498231018_6w6Zt0h2PdU4Muy5Tvph2VeNG67yTuwl.jpg"
+              alt="Tokyo"
+              class="img-fluid"
+            />
+
+            <div class="bg-success text-white">Population: 37.8 million</div>
+
+            Along with being the most populous city, Tokyo is also a major
+            international financial hub. It is home to the Tokyo Stock Exchange
+            and many multinational corporations. The city is famous for its food
+            scene, offering both traditional Japanese cuisine and international
+            dining options. Tourists are drawn to attractions like the Tokyo
+            Tower, Senso-ji Temple, and the vibrant district of Shibuya, home to
+            the famous scramble crossing.
           </div>
-          <footer></footer>
         </article>
-        <article id="">
+        <br />
+
+        <!-- City 2: Delhi -->
+        <article id="delhi">
           <header>
             <h2>
-              <p>Where does it come from?</p>
+              <p>2. Delhi, India</p>
             </h2>
           </header>
           <div class="entry-content">
-            <a href="">
-              <img src="http://placehold.it/750x420" alt="" class="img-fluid" />
-            </a>
-            <p>
-              On the day of vijayadashami,CSC gives you more offer to initiate
-              the learning and it gives you a good commitment into
-              Education.Join and learn the job oriented course and your success
-              is assured
-            </p>
+            <img
+              src="https://as2.ftcdn.net/v2/jpg/08/18/92/23/1000_F_818922332_fEoqYSWaTvjSl4DIjFAC2dwD08SJ6Kss.jpg"
+              alt="Delhi"
+              class="img-fluid"
+            />
+
+            <div class="bg-success text-white">Population: 32.9 million</div>
+            Delhi is divided into two distinct parts: Old Delhi and New Delhi.
+            Old Delhi is known for its historical monuments such as the Red Fort
+            and Jama Masjid, while New Delhi houses government buildings and
+            embassies. The city's metro system is one of the largest in the
+            world, and its numerous festivals, including Diwali and Holi, make
+            it a cultural hotspot. Delhi’s street food, like chaat and parathas,
+            is also world-famous.
           </div>
-          <footer>
-            <div class="meta">
-              Written by <span class="author">Author name</span
-              ><span class="date">11-08-2024</span>
-            </div>
-          </footer>
         </article>
+        <br />
+
+        <!-- City 3: Shanghai -->
+        <article id="shanghai">
+          <header>
+            <h2>
+              <p>3. Shanghai, China</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://as2.ftcdn.net/v2/jpg/08/01/32/45/1000_F_801324510_YKVusbwQBAWEcsP15NddiPx0soxQGZbW.jpg"
+              class="img-fluid"
+            />
+
+            <div class="bg-success text-white">Population: 28.6 million</div>
+            Shanghai is not only China’s economic center but also a growing
+            global center for technology and innovation. The city’s Pudong
+            district is home to the iconic Oriental Pearl Tower and the Shanghai
+            Tower, the second tallest building in the world. Shanghai is also
+            famous for its rich history, particularly its role as a center of
+            international trade in the 19th and early 20th centuries. The city’s
+            cuisine, especially xiaolongbao (soup dumplings), is a favorite
+            among locals and tourists alike.
+          </div>
+        </article>
+        <br />
+
+        <!-- City 4: São Paulo -->
+        <article id="sao-paulo">
+          <header>
+            <h2>
+              <p>4. São Paulo, Brazil</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://as2.ftcdn.net/v2/jpg/04/93/62/21/1000_F_493622118_d6r0nDCaUFh9mJ9Qmk9d1fYON4oDFUPq.jpg"
+              alt="São Paulo"
+              class="img-fluid"
+            />
+
+            <div class="bg-success text-white">Population: 22.2 million</div>
+            São Paulo is known for its influence in the arts, fashion, and
+            entertainment. It hosts the São Paulo Fashion Week, the largest in
+            Latin America, and has a thriving music scene, including samba and
+            electronic music. The city is home to many museums, including the
+            São Paulo Museum of Art, and it hosts the world’s largest gay pride
+            parade. The city's ethnic diversity is evident in its neighborhoods
+            like Liberdade (Japanese) and Bixiga (Italian).
+          </div>
+        </article>
+        <br />
+
+        <!-- City 5: Mexico City -->
+        <article id="mexico-city">
+          <header>
+            <h2>
+              <p>5. Mexico City, Mexico</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://as1.ftcdn.net/v2/jpg/04/99/46/48/1000_F_499464870_WGFr4ySrkTamOCsvL7cayox1nNzQZGKI.jpg"
+              alt="Mexico City"
+              class="img-fluid"
+            />
+
+            <div class="bg-success text-white">Population: 22.1 million</div>
+            Mexico City stands out for its Aztec heritage, with the ancient
+            Templo Mayor ruins located in the city center. It's also known for
+            its museums, including the Frida Kahlo Museum and the National
+            Museum of Anthropology. The city's vibrant culture is reflected in
+            its colorful architecture, mariachi music, and Mexican cuisine like
+            tacos and tamales. Despite its urban sprawl, Mexico City offers
+            green spaces like Chapultepec Park, one of the largest city parks in
+            the world.
+          </div>
+        </article>
+        <br />
+
+        <!-- City 6: Dhaka -->
+        <article id="dhaka">
+          <header>
+            <h2>
+              <p>6. Dhaka, Bangladesh</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://as1.ftcdn.net/v2/jpg/05/98/42/60/1000_F_598426018_dZSafUODg9I0cEBJrj8F4AHzYmrXrHdW.jpg"
+              alt="Dhaka"
+              class="img-fluid"
+            />
+
+            <div class="bg-success text-white">Population: 21.3 million</div>
+            Dhaka is rapidly modernizing, with new skyscrapers and
+            infrastructure projects underway, such as the metro rail system. The
+            city is a center of South Asian culture, known for its music,
+            traditional crafts, and literature. Despite rapid urbanization,
+            Dhaka still retains its old-world charm in areas like Old Dhaka,
+            where you can find the Ahsan Manzil and Lalbagh Fort. The Buriganga
+            River plays a vital role in the city’s economy, with numerous
+            ferries and cargo boats navigating its waters daily.
+          </div>
+        </article>
+        <br />
+
+        <!-- City 7: Cairo -->
+        <article id="cairo">
+          <header>
+            <h2>
+              <p>7. Cairo, Egypt</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://as1.ftcdn.net/v2/jpg/02/73/52/26/1000_F_273522677_ZU5CCrsyEsVfUJzLMaS3JUIS4bg5Zg1y.jpg"
+              alt="Cairo"
+              class="img-fluid"
+            />
+
+            <div class="bg-success text-white">Population: 21 million</div>
+            Cairo is not only the political capital but also the intellectual
+            and cultural heart of Egypt. The city is home to the Al-Azhar
+            University, one of the oldest universities in the world. Cairo’s
+            markets, such as Khan El Khalili, are famous for traditional crafts,
+            jewelry, and spices. Despite its chaotic traffic, the city continues
+            to attract visitors with its rich history, vibrant arts scene, and
+            bustling nightlife along the Nile River.
+          </div>
+        </article>
+        <br />
+
+        <!-- City 8: Mumbai -->
+        <article id="mumbai">
+          <header>
+            <h2>
+              <p>8. Mumbai, India</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://as1.ftcdn.net/v2/jpg/03/59/69/88/1000_F_359698855_QGDdtpe1mfmCOYcMRxNb0UYAiYXZmYC3.jpg"
+              alt="Mumbai"
+              class="img-fluid"
+            />
+
+            <div class="bg-success text-white">Population: 20.9million</div>
+            Mumbai, often called the "City of Dreams," is the birthplace of
+            Indian cinema, producing hundreds of films each year in Bollywood.
+            The city is also home to important financial institutions like the
+            Bombay Stock Exchange. In addition to its economic power, Mumbai has
+            a deep cultural heritage, with colonial-era buildings like the
+            Gateway of India and the Chhatrapati Shivaji Maharaj Terminus. The
+            city’s vibrant street markets and iconic street food, such as vada
+            pav and pav bhaji, are a key part of daily life.
+          </div>
+        </article>
+        <br />
+
+        <!-- City 9: Beijing -->
+        <article id="beijing">
+          <header>
+            <h2>
+              <p>9. Beijing, China</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://as2.ftcdn.net/v2/jpg/07/91/35/81/1000_F_791358197_zTb43p2K5VxtXDc6yPn6uLEITFzmLTWI.jpg"
+              alt="Beijing"
+              class="img-fluid"
+            />
+
+            <div class="bg-success text-white">Population: 20.4 million</div>
+            Beijing’s rapid growth has made it a global city with a booming
+            economy, yet it still preserves its historical and cultural
+            treasures. The Great Wall of China, located just outside the city,
+            remains one of the world’s most popular tourist destinations.
+            Beijing is also known for its Peking Opera and rich culinary
+            traditions, with dishes like Peking Duck being globally renowned.
+            The city has also become a global center for technology and
+            innovation, with rapid advances in AI and fintech.
+          </div>
+        </article>
+        <br />
+        <!-- City 10: Osaka -->
+        <article id="osaka">
+          <header>
+            <h2>
+              <p>10. Osaka, Japan</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://as2.ftcdn.net/v2/jpg/03/56/32/99/1000_F_356329969_ojJcbQvbIuzSW0m4hv8AHnG83Lo2ddxI.jpg"
+              alt="Osaka"
+              class="img-fluid"
+            />
+
+            <div class="bg-success text-white">Population: 19.2 million</div>
+            Osaka has long been a center of trade and commerce in Japan. It is
+            often considered the culinary capital of Japan, famous for dishes
+            such as okonomiyaki (savory pancakes) and takoyaki (octopus balls).
+            The city’s historic Osaka Castle contrasts with its futuristic
+            developments in districts like Umeda. Osaka is also a major port
+            city and a gateway to the Kansai region, with easy access to cities
+            like Kyoto and Nara.
+          </div>
+        </article>
+        <br />
+        <hr />
+        <pre>
+          <b>
+This Content Sponsored by Genreviews.Online
+
+Genreviews.online is One of the Review Portal Site
+
+Website Link: <a href="https://genreviews.online/">https://genreviews.online/</a>
+
+Sponsor Content: #genreviews.online, #genreviews,
+
+#productreviews, #bestreviews, #reviewportal
+          </b>
+        </pre>
       </div>
     </div>
   </div>
-  {%endblock%}
+  {% endblock %}
 </body>

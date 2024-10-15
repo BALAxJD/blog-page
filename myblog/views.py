@@ -5,3 +5,6 @@ def home(request):
 
 def b1(request):
     return(render(request,"blog1.html"))
+
+def b2(request):
+    return(render(request,"blog2.html"))
