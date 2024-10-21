@@ -10,3 +10,5 @@ def b1(request):
 def b2(request):
     return(render(request,"blog2.html"))
 
+def sp1(request):
+    return(render(request,"sp1.html"))

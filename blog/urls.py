@@ -22,6 +22,7 @@ from myblog import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home),
-    path('blog1/',views.b1,name='blog1'),
-    path('blog2/',views.b2,name="blog2"),
+    path('Top 10 populated cities/',views.b1,name='blog1'),
+    path('impact of Melting glaciers/',views.b2,name="blog2"),
+    path('AI in medicine/',views.sp1,name="sp1"),
 ]
