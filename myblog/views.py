@@ -12,3 +12,6 @@ def b2(request):
 
 def sp1(request):
     return(render(request,"sp1.html"))
+
+def tour(request):
+    return(render(request,"tour1.html"))
