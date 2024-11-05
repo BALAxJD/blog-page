@@ -26,4 +26,5 @@ urlpatterns = [
     path('impact of Melting glaciers/',views.b2,name="blog2"),
     path('AI in medicine/',views.sp1,name="sp1"),
     path('World tallest building/',views.tour,name="tour"),
+    path('Urbanization shaping Environment',views.clim,name="clim"),
 ]

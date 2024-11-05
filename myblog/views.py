@@ -6,7 +6,6 @@ def home(request):
 def b1(request):
     return(render(request,"blog1.html"))
 
-
 def b2(request):
     return(render(request,"blog2.html"))
 
@@ -15,3 +14,6 @@ def sp1(request):
 
 def tour(request):
     return(render(request,"tour1.html"))
+
+def clim(request):
+    return(render(request,"clim1.html"))
