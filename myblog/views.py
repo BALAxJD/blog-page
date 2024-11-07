@@ -17,3 +17,6 @@ def tour(request):
 
 def clim(request):
     return(render(request,"clim1.html"))
+
+def top1(request):
+    return(render(request,"top1.html"))

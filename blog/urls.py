@@ -27,4 +27,5 @@ urlpatterns = [
     path('AI in medicine/',views.sp1,name="sp1"),
     path('World tallest building/',views.tour,name="tour"),
     path('Urbanization shaping Environment',views.clim,name="clim"),
+    path('Top 10 Dynasty in world',views.top1,name='top1'),
 ]
