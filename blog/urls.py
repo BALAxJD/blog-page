@@ -28,4 +28,5 @@ urlpatterns = [
     path('World tallest building/',views.tour,name="tour"),
     path('Urbanization shaping Environment',views.clim,name="clim"),
     path('Top 10 Dynasty in world',views.top1,name='top1'),
+    path("top 5 best eco-friendly innovations/",views.top2,name='top2'),
 ]

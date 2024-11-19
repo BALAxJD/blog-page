@@ -20,3 +20,6 @@ def clim(request):
 
 def top1(request):
     return(render(request,"top1.html"))
+
+def top2(request):
+    return(render(request,"top2.html"))
