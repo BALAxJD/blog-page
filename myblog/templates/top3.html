@@ -1,0 +1,174 @@
+{% extends "index.html" %} {% load static %}
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Most Anticipated Games of the Year</title>
+
+  <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css"
+    integrity="sha384-yourGeneratedHash"
+    crossorigin="anonymous"
+  />
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    .entry-content {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      padding: 15px;
+      border: 1px solid #ddd; /* Optional: Add a border */
+      border-radius: 5px; /* Optional: Add rounded corners */
+      margin-bottom: 20px; /* Optional: Add space between entries */
+    }
+  </style>
+</head>
+<body>
+  {% block content %}
+  <div id="space"></div>
+  <div class="container my-4">
+    <div class="page-header">
+      <div>
+        <h1 class="text-primary">Top 5 Eco-Friendly Innovations in 2024</h1>
+      </div>
+    </div>
+    <!-- Starfield -->
+    <div class="row">
+      <div class="col-md-8">
+        <article>
+          <header>
+            <h2>
+              <p>
+                The content highlights upcoming games of 2024, showcasing their
+                advanced gameplay, diverse genres, and innovative features. It
+                emphasizes their appeal to both casual and dedicated gamers,
+                reflecting the evolving trends in the gaming industry.
+              </p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <h2>1. Starfield</h2>
+            <img
+              src="https://cdn.wccftech.com/wp-content/uploads/2022/02/Starfield-game-HD-scaled.jpg"
+              alt="Starfield game"
+              class="img-fluid"
+            />
+            <p>
+              Bethesda Game Studios’ *Starfield* is a groundbreaking open-world
+              RPG set in the vast expanse of outer space. Players take on the
+              role of space explorers navigating uncharted galaxies, uncovering
+              mysteries, and engaging in interstellar trade and diplomacy. The
+              game boasts unparalleled freedom, with the ability to customize
+              spacecraft, form alliances, and build entire civilizations. Its
+              visually stunning environments bring alien worlds to life, filled
+              with breathtaking landscapes and awe-inspiring vistas. A dynamic
+              storyline ensures no two adventures are alike, and the interplay
+              of choices impacts the broader universe in meaningful ways.
+            </p>
+          </div>
+
+          <!-- The Legend of Zelda: Tears of the Kingdom -->
+          <div class="entry-content">
+            <h2>2. The Legend of Zelda: Tears of the Kingdom</h2>
+            <img
+              src="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_TloZTearsOfTheKingdom_Gamepage_image1600w.jpg"
+              alt="The Legend of Zelda: Tears of the Kingdom"
+              class="img-fluid"
+            />
+            <p>
+              *Tears of the Kingdom* elevates the *Legend of Zelda* series to
+              new heights, both literally and figuratively. Players explore a
+              sprawling open-world environment that includes floating islands,
+              subterranean caves, and Hyrule’s diverse landscapes. The game
+              introduces innovative crafting and combat mechanics, allowing
+              players to experiment with unique weapons and tools. A compelling
+              narrative dives deep into Hyrule’s ancient lore, while side quests
+              reveal touching stories of its inhabitants. With breathtaking
+              graphics and an immersive soundtrack, this title redefines
+              adventure gaming.
+            </p>
+          </div>
+
+          <!-- Hogwarts Legacy -->
+          <div class="entry-content">
+            <h2>3. Hogwarts Legacy</h2>
+            <img
+              src="https://www.powerpyx.com/wp-content/uploads/hogwarts-legacy-wallpaper.jpg"
+              alt="Hogwarts Legacy"
+              class="img-fluid"
+            />
+            <p>
+              Step into the magical world of Hogwarts in the 1800s with
+              *Hogwarts Legacy*. This action-packed RPG gives players the
+              freedom to attend classes, brew potions, and master spells while
+              navigating a gripping storyline filled with moral choices. Beyond
+              the castle walls, players can explore iconic locations such as the
+              Forbidden Forest and Hogsmeade Village. Customize your character,
+              choose your house, and forge your legacy in a richly detailed,
+              open-world environment that celebrates J.K. Rowling’s magical
+              universe.
+            </p>
+          </div>
+
+          <!-- Final Fantasy XVI -->
+          <div class="entry-content">
+            <h2>4. Final Fantasy XVI</h2>
+            <img
+              src="https://cdn.mos.cms.futurecdn.net/x5h2dQtadArMuB8FecwMJX-1200-80.jpg"
+              alt="Final Fantasy XVI"
+              class="img-fluid"
+            />
+            <p>
+              *Final Fantasy XVI* brings a darker and grittier tone to the
+              legendary franchise, immersing players in a world torn apart by
+              political strife and ancient magical forces. Players assume the
+              role of Clive Rosfield, whose journey is marked by personal loss,
+              vengeance, and redemption. The game blends real-time combat with
+              cinematic storytelling, featuring large-scale battles against
+              colossal Eikons. Its sprawling world is brought to life with
+              cutting-edge graphics and an emotional score that complements the
+              high-stakes narrative.
+            </p>
+          </div>
+
+          <!-- Marvel’s Spider-Man 2 -->
+          <div class="entry-content">
+            <h2>5. Marvel’s Spider-Man 2</h2>
+            <img
+              src="https://gamingbolt.com/wp-content/uploads/2023/07/marvels-spider-man-2-scaled.jpg"
+              alt="Marvel's Spider-Man 2"
+              class="img-fluid"
+            />
+            <p>
+              Swing into action with *Marvel’s Spider-Man 2*, a thrilling sequel
+              that expands the adventures of Peter Parker and Miles Morales.
+              This time, players face new villains, including the menacing
+              Venom, while navigating personal challenges that test their
+              heroes’ resolve. The game’s expanded map includes iconic NYC
+              landmarks and dynamic weather systems. Enhanced combat mechanics
+              and the introduction of dual protagonists promise an unforgettable
+              experience for fans of the web-slinging duo.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+  {% endblock %}
+</body>

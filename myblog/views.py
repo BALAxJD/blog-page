@@ -23,3 +23,6 @@ def top1(request):
 
 def top2(request):
     return(render(request,"top2.html"))
+
+def top3(request):
+    return(render(request,"top3.html"))
