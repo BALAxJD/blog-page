@@ -30,4 +30,5 @@ urlpatterns = [
     path('Top 10 Dynasty in world',views.top1,name='top1'),
     path("top 5 best eco-friendly innovations/",views.top2,name='top2'),
     path("The Most Anticipated Games of the Year",views.top03,name='top3'),
+    path("Urban Farming: Transforming Cities into Thriving Green Spaces",views.blg,name='blg'),
 ]
