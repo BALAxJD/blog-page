@@ -18,7 +18,6 @@ from django.contrib import admin
 from django.urls import path
 from myblog import views
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home),
@@ -31,4 +30,5 @@ urlpatterns = [
     path("top 5 best eco-friendly innovations/",views.top2,name='top2'),
     path("The Most Anticipated Games of the Year",views.top03,name='top3'),
     path("Urban Farming: Transforming Cities into Thriving Green Spaces",views.blg,name='blg'),
+    path("Top 10 Books to Read Before They're Adapted to Movies",views.top4,name='top4'),
 ]

@@ -29,3 +29,6 @@ def top03(request):
 
 def blg(request):
     return(render(request,"blg.html"))
+
+def top4(request):
+    return(render(request,"top4.html"))
