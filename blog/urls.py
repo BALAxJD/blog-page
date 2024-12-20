@@ -31,4 +31,5 @@ urlpatterns = [
     path("The Most Anticipated Games of the Year",views.top03,name='top3'),
     path("Urban Farming: Transforming Cities into Thriving Green Spaces",views.blg,name='blg'),
     path("Top 10 Books to Read Before They're Adapted to Movies",views.top4,name='top4'),
+    path("Indian Chess Prodigy Gukesh Dommaraju Becomes Youngest World Chess Champion",views.news,name='news'),
 ]

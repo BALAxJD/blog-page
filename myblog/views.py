@@ -32,3 +32,6 @@ def blg(request):
 
 def top4(request):
     return(render(request,"top4.html"))
+
+def news(request):
+    return(render(request,"news1.html"))
