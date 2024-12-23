@@ -105,3 +105,9 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: 40px;
 }
+
+.entry-content {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
+  margin-bottom: 20px; /* Optional: Add space between entries */
+}

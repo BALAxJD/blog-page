@@ -35,3 +35,6 @@ def top4(request):
 
 def news(request):
     return(render(request,"news1.html"))
+
+def news1(request):
+    return(render(request,"news2.html"))
