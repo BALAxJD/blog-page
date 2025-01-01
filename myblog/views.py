@@ -38,3 +38,6 @@ def news(request):
 
 def news1(request):
     return(render(request,"news2.html"))
+
+def news3(request):
+    return(render(request,"news3.html"))
