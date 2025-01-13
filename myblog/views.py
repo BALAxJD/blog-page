@@ -42,5 +42,7 @@ def news1(request):
 def news3(request):
     return(render(request,"news3.html"))
 
-def blog4(request):
+def blog3(request):
     return(render(request,"blog3.html"))
+def blog4(request):
+    return(render(request,"blog4.html"))

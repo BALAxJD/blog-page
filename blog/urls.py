@@ -34,5 +34,6 @@ urlpatterns = [
     path("Indian Chess Prodigy Gukesh Dommaraju Becomes Youngest World Chess Champion",views.news,name='news'),
     path("An Overview of the Naan Muthalvan Scheme by the Tamil Nadu Government",views.news1,name='news1'),
     path("How 5G Technology is Changing Communication",views.news3,name='news3'),
-    path("Plastic pollution and how to reduce it",views.blog4,name='blog4'),
+    path("Plastic pollution and how to reduce it",views.blog3,name='blog3'),
+    path("The Future of Renewable Energy: Advancing Towards a Sustainable World",views.blog4,name='blog4'),
 ]
