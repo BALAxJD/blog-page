@@ -36,4 +36,5 @@ urlpatterns = [
     path("How 5G Technology is Changing Communication",views.news3,name='news3'),
     path("Plastic pollution and how to reduce it",views.blog3,name='blog3'),
     path("The Future of Renewable Energy: Advancing Towards a Sustainable World",views.blog4,name='blog4'),
+    path("Exploring the Pros and Cons of Online Education: Flexibility, Accessibility, and Challenges",views.blog5,name='blog5'),
 ]
