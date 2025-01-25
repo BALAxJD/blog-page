@@ -1,0 +1,298 @@
+{% extends "index.html" %} {% load static %}
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css"
+    integrity="sha384-yourGeneratedHash"
+    crossorigin="anonymous"
+  />
+
+  <!-- Use only one version of Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    .entry-content {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  {% block content %}
+  <br />
+  <br /><br /><br />
+  <div id="space"></div>
+  <div class="container">
+    <div class="page-header">
+      <div>
+        <h1 class="text-primary">
+          10 Quick and Healthy Recipes for Busy Professionals: Easy Meals to
+          Save Time and Stay Fit
+        </h1>
+        <hr />
+        <h4>
+          Discover quick and nutritious recipes tailored for busy professionals.
+          Save time while enjoying healthy, delicious meals every day.
+        </h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8">
+        <!-- no1 -->
+        <article id="tokyo">
+          <header>
+            <h2>
+              <p>1. Avocado Toast with Egg</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://i.pinimg.com/originals/bd/9a/bd/bd9abd7015b396a588374b06d82ff809.jpg"
+              alt="Tokyo"
+              class="img-fluid"
+            />
+
+            Mash a ripe avocado with a pinch of salt, pepper, and lemon juice.
+            Spread it generously on whole-grain toast. Top with a freshly
+            poached or sunny-side-up egg for protein. Sprinkle some chili flakes
+            or everything bagel seasoning for extra flavor. Pair with a side of
+            fresh fruit for a wholesome breakfast in under 10 minutes.
+          </div>
+        </article>
+        <br />
+
+        <!-- no2-->
+        <article id="delhi">
+          <header>
+            <h2>
+              <p>2.Greek Yogurt Parfait</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://blog.elcoach.me/articles/wp-content/uploads/2022/11/oregon-berries-beautiful-eats-and-things-lemon-berry-greek-yogurt-parfait.jpg"
+              alt="Delhi"
+              class="img-fluid"
+            />
+            Start with a layer of creamy Greek yogurt in a glass or bowl. Add a
+            handful of granola, a drizzle of honey, and your favorite fresh
+            fruits like strawberries, blueberries, or bananas. Repeat the layers
+            to create a visually appealing, nutrient-dense snack or breakfast.
+            Add chia or flax seeds for a fiber boost.
+          </div>
+        </article>
+        <br />
+
+        <!-- no3-->
+        <article id="shanghai">
+          <header>
+            <h2>
+              <p>3. Quinoa Salad</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://reciperunner.com/wp-content/uploads/2019/07/Summer-Quinoa-Salad-Pic.jpg"
+              class="img-fluid"
+            />
+            Cook quinoa as per the package instructions and let it cool. Toss it
+            with diced cucumbers, cherry tomatoes, bell peppers, and red onions.
+            Add crumbled feta cheese, a handful of chopped parsley, and a simple
+            dressing of olive oil, lemon juice, and a pinch of salt and pepper.
+            This salad is perfect for meal prep and tastes even better the next
+            day.
+          </div>
+        </article>
+        <br />
+
+        <!-- no4-->
+        <article id="sao-paulo">
+          <header>
+            <h2>
+              <p>4.Chicken Wrap</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/63b737fc4cd9826791bbc6de/7acb8e13-aae9-43d3-8c1d-b16730fe3099/GW+wrap.jpg?format=1500w"
+              alt="São Paulo"
+              class="img-fluid"
+            />
+            Use a whole-wheat tortilla and layer it with grilled chicken breast
+            slices, fresh spinach, and sliced avocado. Add shredded carrots, a
+            drizzle of hummus, and a sprinkle of your favorite herbs or spices.
+            Roll it up tightly, slice it in half, and enjoy a portable,
+            protein-rich lunch or snack.
+          </div>
+        </article>
+        <br />
+
+        <!-- no5 -->
+        <article id="mexico-city">
+          <header>
+            <h2>
+              <p>5. Vegetable Stir-Fry</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://chefkatiechin.com/wp-content/uploads/2020/04/IMG_8675-829x1024.jpg"
+              alt="Mexico City"
+              class="img-fluid"
+            />
+            Heat a tablespoon of sesame oil in a pan and add sliced carrots,
+            broccoli, bell peppers, snap peas, and onions. Sauté over medium
+            heat, stirring frequently. Add a splash of soy sauce and a teaspoon
+            of honey or ginger for flavor. Serve the stir-fry over steamed brown
+            rice or whole-grain noodles for a quick dinner packed with vitamins.
+          </div>
+        </article>
+        <br />
+
+        <!-- no6 -->
+        <article id="dhaka">
+          <header>
+            <h2>
+              <p>6. Overnight Oats</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://www.simplyrecipes.com/thmb/tYIRDjKEWxfKiyMg1ngW4BF7iCY=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__02__2017-02-18-HTOvernightOats-11-93379f26a96247f887f5809e372ab4de.jpg"
+              alt="Dhaka"
+              class="img-fluid"
+            />
+            Combine rolled oats, your choice of milk (almond, soy, or regular),
+            and a teaspoon of chia seeds in a jar or container. Stir well and
+            refrigerate overnight. In the morning, top with fresh berries,
+            banana slices, nuts, and a drizzle of maple syrup or peanut butter.
+            A perfect grab-and-go breakfast option.
+          </div>
+        </article>
+        <br />
+
+        <!-- no7 -->
+        <article id="cairo">
+          <header>
+            <h2>
+              <p>7. Tuna Salad Lettuce Wraps</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://kalynskitchen.com/wp-content/uploads/2020/05/1200-tuna-salad-lettuce-wraps-768x768.jpg"
+              alt="Cairo"
+              class="img-fluid"
+            />
+            Mix canned tuna with a dollop of Greek yogurt, a teaspoon of Dijon
+            mustard, chopped celery, and a pinch of salt and pepper. Spoon the
+            mixture onto large lettuce leaves like romaine or butter lettuce.
+            Roll them up for a crunchy, low-carb alternative to sandwiches.
+          </div>
+        </article>
+        <br />
+
+        <!-- no8 -->
+        <article id="mumbai">
+          <header>
+            <h2>
+              <p>8. Smoothie Bowl</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://www.lesrecettesvegan.com/wp-content/uploads/2021/07/Recette-Bol-de-smoothie-aux-baies-et-amandes-768x1152.jpg"
+              alt="Mumbai"
+              class="img-fluid"
+            />
+            Blend frozen mixed berries, a banana, and almond milk until thick
+            and creamy. Pour the smoothie into a bowl and top with granola,
+            coconut flakes, chia seeds, and a handful of fresh fruit. It’s a
+            colorful, refreshing meal that feels indulgent but is packed with
+            vitamins and antioxidants.
+          </div>
+        </article>
+        <br />
+
+        <!-- no9 -->
+        <article id="beijing">
+          <header>
+            <h2>
+              <p>9. Baked Salmon with Asparagus</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://cafedelites.com/wp-content/uploads/2016/03/One-Pan-Baked-Lemon-Garlic-Salmon-Asparagus-34.jpg"
+              alt="Beijing"
+              class="img-fluid"
+            />
+
+            Preheat your oven to 375°F (190°C). Place salmon fillets on a baking
+            tray lined with parchment paper. Arrange asparagus spears around the
+            salmon. Drizzle everything with olive oil, sprinkle with salt,
+            pepper, and garlic powder, and bake for 15-20 minutes. Squeeze fresh
+            lemon juice over the top before serving for a flavorful, nutritious
+            dinner.
+          </div>
+        </article>
+        <br />
+        <!-- no10-->
+        <article id="osaka">
+          <header>
+            <h2>
+              <p>10. Egg Muffins</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://www.jocooks.com/wp-content/uploads/2013/11/salami-egg-muffins-1-3.jpg"
+              alt="img10"
+              class="img-fluid"
+            />
+            Preheat your oven to 350°F (175°C). Whisk together eggs with a
+            splash of milk, salt, and pepper. Stir in chopped spinach, diced
+            bell peppers, and shredded cheese. Pour the mixture into greased
+            muffin tins and bake for 20-25 minutes until set. Store in the
+            fridge and reheat for a quick breakfast throughout the week.
+          </div>
+        </article>
+        <br />
+        <hr />
+        <pre>
+        <b>
+This Content Sponsored by Buymote Shopping app
+BuyMote E-Shopping Application is One of the Online Shopping App  
+Now Available on Play Store & App Store (Buymote E-Shopping)
+Click Below Link and Install Application: <a href="https://buymote.shop/links/0f5993744a9213079a6b53e8">
+https://buymote.shop/links/0f5993744a9213079a6b53e8</a>
+Sponsor Content: #buymote #buymoteeshopping #buymoteonline 
+                #buymoteshopping #buymoteapplication
+        </b>
+        </pre>
+      </div>
+    </div>
+  </div>
+  {% endblock %}
+</body>

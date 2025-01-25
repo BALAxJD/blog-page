@@ -37,4 +37,5 @@ urlpatterns = [
     path("Plastic pollution and how to reduce it",views.blog3,name='blog3'),
     path("The Future of Renewable Energy: Advancing Towards a Sustainable World",views.blog4,name='blog4'),
     path("Exploring the Pros and Cons of Online Education: Flexibility, Accessibility, and Challenges",views.blog5,name='blog5'),
+    path("10 Quick and Healthy Recipes for Busy Professionals: Easy Meals to Save Time and Stay Fit",views.top5,name='top5')
 ]
