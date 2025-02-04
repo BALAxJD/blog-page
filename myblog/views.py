@@ -53,3 +53,6 @@ def blog5(request):
 
 def top5(request):
     return(render(request,"top5.html"))
+
+def blog6(request):
+    return(render(request,"blog6.html"))
