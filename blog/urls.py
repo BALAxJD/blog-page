@@ -39,4 +39,6 @@ urlpatterns = [
     path("Exploring the Pros and Cons of Online Education: Flexibility, Accessibility, and Challenges",views.blog5,name='blog5'),
     path("10 Quick and Healthy Recipes for Busy Professionals: Easy Meals to Save Time and Stay Fit",views.top5,name='top5'),
     path("Cybersecurity Tips: How to Stay Safe and secure in online",views.blog6,name='blog6'),
+    path("10 Simple Ways to Reduce Stress and Improve Mental Health",views.top6,name='top6'),
+    path("5 Easy and Delicious Desserts Anyone Can Make at Home",views.top7,name='top7'),
 ]

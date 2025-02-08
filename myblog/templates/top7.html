@@ -1,0 +1,206 @@
+{% extends "index.html" %} {% load static %}
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bala Blog</title>
+
+  <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css"
+    integrity="sha384-yourGeneratedHash"
+    crossorigin="anonymous"
+  />
+
+  <!-- Use only one version of Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    .entry-content {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      padding: 15px;
+      margin-bottom: 20px; /* Optional: Add space between entries */
+    }
+  </style>
+</head>
+<body>
+  {% block content %}
+  <br />
+  <br /><br /><br />
+  <div id="space"></div>
+  <div class="container">
+    <div class="page-header">
+      <div>
+        <h1 class="text-primary">
+          5 Easy and Delicious Desserts Anyone Can Make at Home
+        </h1>
+        <hr />
+        <img
+          src="https://th.bing.com/th/id/OIP.EiIrUsCH-I4_wh2kUWrV7wAAAA?rs=1&pid=ImgDetMain"
+          class="img-fluid"
+          alt="img1"
+        />
+        <h4>
+          Craving something sweet but don’t want to spend hours in the kitchen?
+          You don’t need to be a professional baker to make delicious homemade
+          desserts. Whether you’re new to baking or just looking for simple
+          recipes, these five easy desserts require minimal ingredients and
+          effort. Let’s explore some quick and tasty treats you can whip up at
+          home.
+        </h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8">
+
+        <article id="tokyo">
+          <header>
+            <h2>
+              <p>1. No-Bake Chocolate Cookies</p>
+            </h2>
+          </header>
+
+          <div class="entry-content">
+            <img
+              src="https://www.cookingclassy.com/wp-content/uploads/2012/06/no-bake-cookies-9.jpg"
+              alt="No-Bake Chocolate Cookies"
+              class="img-fluid"
+            />
+            If you love chocolate but don’t want to turn on the oven, no-bake
+            chocolate cookies are a perfect choice. Made with cocoa powder,
+            peanut butter, oats, and sugar, these cookies come together in just
+            minutes. Simply mix the ingredients, shape them into cookies, and
+            let them set in the refrigerator. They’re great for a quick treat or
+            a fun family activity.
+          </div>
+        </article>
+        <br />
+        <article id="delhi">
+          <header>
+            <h2>
+              <p>2. Classic Mug Cake</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://i.pinimg.com/originals/f5/01/1e/f5011e1b61a10925d06aa37d6b731089.jpg"
+              alt="Classic Mug Cake"
+              class="img-fluid"
+            />
+            Mug cakes are the ultimate single-serving dessert. All you need is a
+            microwave, a mug, and basic ingredients like flour, sugar, cocoa
+            powder, milk, and baking powder. Mix everything in a mug, microwave
+            for about a minute, and enjoy a soft, warm cake instantly. You can
+            customize it with chocolate chips, sprinkles, or a scoop of ice
+            cream on top.
+          </div>
+        </article>
+        <br />
+        <article id="shanghai">
+          <header>
+            <h2>
+              <p>3. Easy Fruit Parfait</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://insidebrucrewlife.com/wp-content/uploads/2013/06/Lemon-Mousse-Fruit-Parfaits-24-1.jpg"
+              alt="Easy Fruit Parfait"
+              class="img-fluid"
+            />
+            For a refreshing and healthy dessert, try a fruit parfait. Layer
+            your favorite fruits like berries, bananas, or mangoes with yogurt
+            and granola. It’s a simple yet delicious treat that works well for
+            breakfast, snacks, or even a light dessert. Drizzle some honey or
+            add nuts for extra flavor and crunch.
+          </div>
+        </article>
+        <br />
+
+        <article id="sao-paulo">
+          <header>
+            <h2>
+              <p>4. Quick Banana Ice Cream</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://tenina.imgix.net/uploads/recipe-images/Quick-Banana-Ice-Cream-with-Choc-Chips.jpg?w=1200&fit=max&auto=compress"
+              alt="Quick Banana Ice Cream"
+              class="img-fluid"
+            />
+            Banana ice cream is a dairy-free and guilt-free alternative to
+            traditional ice cream. Simply freeze ripe bananas and blend them
+            until smooth. You can mix in cocoa powder for a chocolate version or
+            add peanut butter for extra creaminess. This naturally sweet dessert
+            is not only delicious but also healthy and satisfying.
+          </div>
+        </article>
+        <br />
+        <article id="mexico-city">
+          <header>
+            <h2>
+              <p>5. 3-Ingredient Peanut Butter Cookies</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            <img
+              src="https://therecipecritic.com/wp-content/uploads/2020/02/peanutbuttercookies2.jpg"
+              alt="3-ingredient penut butter cookies"
+              class="img-fluid"
+            />
+            Dehydration can lead to fatigue and irritability. Drinking enough
+            water throughout the day helps maintain energy levels and mental
+            clarity.
+          </div>
+        </article>
+        <article>
+          <header>
+            <h2>
+              <p>Conclusion</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            Homemade desserts don’t have to be complicated. With just a few
+            simple ingredients and minimal effort, you can create delicious
+            treats in no time. Whether you prefer chocolatey, fruity, or creamy
+            desserts, these easy recipes will satisfy your sweet tooth without
+            the hassle. So, grab your ingredients and start making these
+            delightful desserts today!
+          </div>
+        </article>
+        <br />
+        <br />
+        <hr />
+        <pre>
+          <b>
+This Content Sponsored by Buymote Shopping app
+BuyMote E-Shopping Application is One of the Online Shopping App
+Now Available on Play Store & App Store (Buymote E-Shopping)
+Click Below Link and Install Application:<a href="https://buymote.shop/links/0f5993744a9213079a6b53e8">
+https://buymote.shop/links/0f5993744a9213079a6b53e8</a>
+Sponsor Content: #buymote #buymoteeshopping
+#buymoteonline #buymoteshopping #buymoteapplication         
+          </b>
+        </pre>
+      </div>
+    </div>
+  </div>
+  {% endblock %}
+</body>

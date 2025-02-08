@@ -1,0 +1,236 @@
+{% extends "index.html" %} {% load static %}
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bala Blog</title>
+
+  <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css"
+    integrity="sha384-yourGeneratedHash"
+    crossorigin="anonymous"
+  />
+
+  <!-- Use only one version of Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    .entry-content {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      padding: 15px;
+      margin-bottom: 20px; /* Optional: Add space between entries */
+    }
+  </style>
+</head>
+<body>
+  {% block content %}
+  <br />
+  <br /><br /><br />
+  <div id="space"></div>
+  <div class="container">
+    <div class="page-header">
+      <div>
+        <h1 class="text-primary">
+          10 Simple Ways to Reduce Stress and Improve Mental Health
+        </h1>
+        <hr />
+        <img
+          src="https://imagecoachshivani.com/wp-content/uploads/2023/04/ics-blog-images-1.png"
+          class="img-fluid"
+          alt="img1"
+        />
+        <h4>
+          In today’s fast-paced world, stress has become a common part of daily
+          life. While some stress is normal, excessive stress can negatively
+          impact mental and physical health. Managing stress effectively is
+          essential for overall well-being. Here are 10 simple yet effective
+          ways to reduce stress and improve your mental health.
+        </h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8">
+        <!-- City 1: Tokyo -->
+        <article id="tokyo">
+          <header>
+            <h2>
+              <p>1. Practice Deep Breathing</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            Deep breathing exercises help calm the nervous system, reduce
+            stress, and increase relaxation. Try inhaling deeply for four
+            seconds, holding for four seconds, and exhaling slowly for six
+            seconds.
+          </div>
+        </article>
+        <br />
+
+        <!-- City 2: Delhi -->
+        <article id="delhi">
+          <header>
+            <h2>
+              <p>2. Exercise Regularly</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            Physical activity releases endorphins, which are natural mood
+            boosters. Even a short walk, yoga session, or stretching exercise
+            can significantly reduce stress levels.
+          </div>
+        </article>
+        <br />
+
+        <!-- City 3: Shanghai -->
+        <article id="shanghai">
+          <header>
+            <h2>
+              <p>3. Get Enough Sleep</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            Quality sleep is essential for mental health. Aim for 7-9 hours of
+            restful sleep each night to improve focus, mood, and overall
+            well-being.
+          </div>
+        </article>
+        <br />
+
+        <!-- City 4: São Paulo -->
+        <article id="sao-paulo">
+          <header>
+            <h2>
+              <p>4. Eat a Balanced Diet</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            Nutrition plays a key role in mental health. Consuming whole foods,
+            including fruits, vegetables, lean proteins, and healthy fats, can
+            support brain function and reduce anxiety.
+          </div>
+        </article>
+        <br />
+
+        <!-- City 5: Mexico City -->
+        <article id="mexico-city">
+          <header>
+            <h2>
+              <p>5. Stay Hydrated</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            Dehydration can lead to fatigue and irritability. Drinking enough
+            water throughout the day helps maintain energy levels and mental
+            clarity.
+          </div>
+        </article>
+        <br />
+
+        <!-- City 6: Dhaka -->
+        <article id="dhaka">
+          <header>
+            <h2>
+              <p>6. Practice Mindfulness and Meditation</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            Mindfulness techniques, such as meditation and journaling, help
+            manage stress by promoting relaxation and self-awareness. Even a few
+            minutes a day can make a difference.
+          </div>
+        </article>
+        <br />
+
+        <!-- City 7: Cairo -->
+        <article id="cairo">
+          <header>
+            <h2>
+              <p>7. Limit Screen Time</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            Excessive screen time, especially on social media, can contribute to
+            stress and anxiety. Set boundaries and take regular digital detoxes
+            to improve mental clarity.
+          </div>
+        </article>
+        <br />
+
+        <!-- City 8: Mumbai -->
+        <article id="mumbai">
+          <header>
+            <h2>
+              <p>8. Connect with Loved Ones</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            Spending time with friends and family provides emotional support and
+            helps reduce feelings of loneliness and stress.
+          </div>
+        </article>
+        <br />
+
+        <!-- City 9: Beijing -->
+        <article id="beijing">
+          <header>
+            <h2>
+              <p>9. Engage in a Hobby</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            Pursuing activities you enjoy, such as painting, reading, or playing
+            music, provides a healthy escape from daily stressors.
+          </div>
+        </article>
+        <br />
+        <!-- City 10: Osaka -->
+        <article id="osaka">
+          <header>
+            <h2>
+              <p>10. Seek Professional Help</p>
+            </h2>
+          </header>
+          <div class="entry-content">
+            If stress becomes overwhelming, speaking with a mental health
+            professional can provide guidance, support, and coping strategies.
+            By incorporating these simple techniques into your daily routine,
+            you can effectively manage stress and improve your mental health for
+            a happier and healthier life.
+          </div>
+        </article>
+        <br />
+        <hr />
+        <pre>
+          <b>
+This Content Sponsored by Buymote Shopping app
+BuyMote E-Shopping Application is One of the Online Shopping App
+Now Available on Play Store & App Store (Buymote E-Shopping)
+Click Below Link and Install Application: <a href="https://buymote.shop/links/0f5993744a9213079a6b53e8">https://buymote.shop/links/0f5993744a9213079a6b53e8</a>
+
+Sponsor Content: #buymote #buymoteeshopping
+#buymoteonline #buymoteshopping #buymoteapplication
+            
+          </b>
+        </pre>
+      </div>
+    </div>
+  </div>
+  {% endblock %}
+</body>
