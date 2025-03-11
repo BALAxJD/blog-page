@@ -41,4 +41,5 @@ urlpatterns = [
     path("Cybersecurity Tips: How to Stay Safe and secure in online",views.blog6,name='blog6'),
     path("10 Simple Ways to Reduce Stress and Improve Mental Health",views.top6,name='top6'),
     path("5 Easy and Delicious Desserts Anyone Can Make at Home",views.top7,name='top7'),
+    path("Wildlife Conservation: Protecting Nature for Future Generations",views.blog7,name='blog7'),
 ]
