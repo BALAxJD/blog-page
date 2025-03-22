@@ -42,4 +42,6 @@ urlpatterns = [
     path("10 Simple Ways to Reduce Stress and Improve Mental Health",views.top6,name='top6'),
     path("5 Easy and Delicious Desserts Anyone Can Make at Home",views.top7,name='top7'),
     path("Wildlife Conservation: Protecting Nature for Future Generations",views.blog7,name='blog7'),
+    path("The Truth About Dieting: Separating Myths from Facts for a Healthier Lifestyle",views.blog8,name='blog8'),
+    
 ]
