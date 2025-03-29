@@ -68,3 +68,6 @@ def blog7(request):
 
 def blog8(request):
     return(render(request,"blog8.html"))
+
+def blog9(request):
+    return(render(request,"blog9.html"))
