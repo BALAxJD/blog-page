@@ -45,4 +45,5 @@ urlpatterns = [
     path("The Truth About Dieting: Separating Myths from Facts for a Healthier Lifestyle",views.blog8,name='blog8'),
     path("How the Technology is massively Transforming Education in this 2025",views.blog9,name='blog9'),
     path("Vidaa Muyarchi Box Office Report: Record Breaker or Slow Starter?",views.blog10,name='blog10'),
+    path("Chandrayaan-4 Mission Unveiled: ISRO's Bold Leap Toward Lunar Sample Return by 2028",views.blog11,name='blog11'),
 ]
