@@ -46,4 +46,6 @@ urlpatterns = [
     path("How the Technology is massively Transforming Education in this 2025",views.blog9,name='blog9'),
     path("Vidaa Muyarchi Box Office Report: Record Breaker or Slow Starter?",views.blog10,name='blog10'),
     path("Chandrayaan-4 Mission Unveiled: ISRO's Bold Leap Toward Lunar Sample Return by 2028",views.blog11,name='blog11'),
+    path("My honest feedback",views.test,name='test'),
+    path("How Gen Z Is Transforming the Indian Storytelling Landscape Across Digital and Traditional Platforms",views.news4,name='news4'),
 ]
