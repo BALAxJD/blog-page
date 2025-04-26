@@ -48,4 +48,5 @@ urlpatterns = [
     path("Chandrayaan-4 Mission Unveiled: ISRO's Bold Leap Toward Lunar Sample Return by 2028",views.blog11,name='blog11'),
     path("My honest feedback",views.test,name='test'),
     path("How Gen Z Is Transforming the Indian Storytelling Landscape Across Digital and Traditional Platforms",views.news4,name='news4'),
+    path("SRH vs CSK Thriller Recap: Sunrisers Hyderabad Edge Past Chennai Super Kings in Last-Ball Nail-Biter",views.news5,name='news5'),
 ]

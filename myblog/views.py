@@ -81,3 +81,6 @@ def test(request):
     return(render(request,"test.html"))
 def news4(request):
     return(render(request,"news4.html"))
+
+def news5(request):
+    return(render(request,"news5.html"))
