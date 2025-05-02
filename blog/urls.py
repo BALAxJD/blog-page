@@ -49,4 +49,5 @@ urlpatterns = [
     path("My honest feedback",views.test,name='test'),
     path("How Gen Z Is Transforming the Indian Storytelling Landscape Across Digital and Traditional Platforms",views.news4,name='news4'),
     path("SRH vs CSK Thriller Recap: Sunrisers Hyderabad Edge Past Chennai Super Kings in Last-Ball Nail-Biter",views.news5,name='news5'),
+    path("Why Gen Z Might Be the Last Generation to Truly Care About Digital Privacy in a Hyperconnected World",views.news6,name='news6'),
 ]
