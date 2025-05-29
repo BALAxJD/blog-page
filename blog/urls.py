@@ -53,4 +53,5 @@ urlpatterns = [
     path("Why Indian Parents Still Fear Creative Careers in 2025 — And How a New Generation Is Changing That",views.blog12,name='blog12'),
     path("Tamil Nadu Budget 2025–26: A Vision for Inclusive Growth, Social  Welfare, and Economic Stability",views.news7,name='news7'),
     path("Chandrayaan-4 vs. Chandrayaan-3: How India’s Next Moon Mission Is going to More Complex, Bold, and Groundbreaking",views.news8,name='news8'),
+    path("India’s Electric Vehicle Revolution in 2025",views.blog13,name='blog13'),
 ]

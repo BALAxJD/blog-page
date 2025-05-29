@@ -96,3 +96,6 @@ def news7(request):
 
 def news8(request):
     return(render(request,"news8.html"))
+
+def blog13(request):
+    return(render(request,"blog13.html"))
