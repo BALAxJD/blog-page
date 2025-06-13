@@ -54,4 +54,5 @@ urlpatterns = [
     path("Tamil Nadu Budget 2025–26: A Vision for Inclusive Growth, Social  Welfare, and Economic Stability",views.news7,name='news7'),
     path("Chandrayaan-4 vs. Chandrayaan-3: How India’s Next Moon Mission Is going to More Complex, Bold, and Groundbreaking",views.news8,name='news8'),
     path("India’s Electric Vehicle Revolution in 2025",views.blog13,name='blog13'),
+    path("Mental Health Crisis in Gen Z: Why Are Young Adults More Depressed Than Ever?",views.blog14,name='blog14'),
 ]
