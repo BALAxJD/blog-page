@@ -105,3 +105,6 @@ def blog14(request):
 
 def news9(request):
     return(render(request,"news9.html"))
+
+def biog(request):
+    return(render(request,"biog.html"))
