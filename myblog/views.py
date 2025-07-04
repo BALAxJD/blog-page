@@ -108,3 +108,6 @@ def news9(request):
 
 def biog(request):
     return(render(request,"biog.html"))
+
+def top8(request):
+     return(render(request,"top8.html"))

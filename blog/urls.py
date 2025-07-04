@@ -57,4 +57,5 @@ urlpatterns = [
     path("Mental Health Crisis in Gen Z: Why Are Young Adults More Depressed Than Ever?",views.blog14,name='blog14'),
     path("Tragic Ahmedabad Air India Crash Raises Urgent Questions on Flight Safety Protocols and Emergency Response in India in 2025",views.news9,name='news9'),
     path("Yuri Gagarin: The Brave Cosmonaut Who Became the First Human to Journey into Outer Space",views.biog,name='biog'),
+    path("Discover the Top 7 Largest Deserts in the World: From Ice to Sand Wonders",views.top8,name='top8'),
 ]
