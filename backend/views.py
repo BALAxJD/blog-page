@@ -122,3 +122,6 @@ def biog(request):
 
 def top8(request):
      return(render(request,"top8.html"))
+
+def top9(request):
+     return (render(request,"top9.html"))

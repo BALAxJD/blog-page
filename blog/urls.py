@@ -59,4 +59,5 @@ urlpatterns = [
     path("Tragic Ahmedabad Air India Crash Raises Urgent Questions on Flight Safety Protocols and Emergency Response in India in 2025",views.news9,name='news9'),
     path("Yuri Gagarin: The Brave Cosmonaut Who Became the First Human to Journey into Outer Space",views.biog,name='biog'),
     path("Discover the Top 7 Largest Deserts in the World: From Ice to Sand Wonders",views.top8,name='top8'),
+    path("Top 5 Must-Watch Indian Web Series of 2025 That Completely Redefined Streaming Entertainment for Every Genre-Loving Viewer",views.top9,name='top9'),
 ]
