@@ -1,4 +1,15 @@
 from django.shortcuts import render
+from rest_framework import generics
+from .serializers import blogPostSerializer
+from .models import BlogPost
+
+class BlogPostListCreateView(generics.ListCreateAPIView):
+    queryset=BlogPost.objects.all()
+    serializer_class=blogPostSerializer
+
+class BlogPostDetailView(generics.RetrieveUpdateDestroyAPIView):
+    queryset=BlogPost.objects.all()
+    serializer_class=blogPostSerializer
 
 def home(request):
     return(render(request,"home.html"))
