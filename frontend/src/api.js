@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://127.0.0.1:8000/api";
+const API_BASE_URL = "https://jamesdon.pythonanywhere.com/api";
 
 export const getPosts = async () => {
   return axios.get(`${API_BASE_URL}/posts/`);

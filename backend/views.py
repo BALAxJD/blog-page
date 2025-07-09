@@ -2,10 +2,19 @@ from django.shortcuts import render
 from rest_framework import generics
 from .serializers import blogPostSerializer
 from .models import BlogPost
+import subprocess
 
 class BlogPostListCreateView(generics.ListCreateAPIView):
-    queryset=BlogPost.objects.all()
+    queryset=BlogPost.objects.all().order_by('-created_at')
     serializer_class=blogPostSerializer
+
+    def perform_create(self,serializer):
+     post=serializer.save()
+
+     subprocess.run(["git","add","."],cwd="/home/jamesdon/blog-page/backend")
+     subprocess.run(["git","commit","-m",f"New blog post:{post.title}"],cwd="/home/jamesdon/blog-page/backend")
+     subprocess.run(["git","push"],cwd="/home/jamesdon/blog-page/backend")
+     subprocess.run(["git", "pull"], cwd="/home/jamesdon/blog-page/backend")
 
 class BlogPostDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset=BlogPost.objects.all()
