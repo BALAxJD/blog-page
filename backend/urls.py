@@ -5,6 +5,6 @@ from
 urlpatterns=[
     path('posts/',BlogPostListCreateView.as_view(),name='post-list'),
     path('posts/<int:pk>/',BlogPostDetailView.as_view(),name='post-details'),
-    path('webhook',github_webhook,name="github-webhook"),
+    path('webhook/',github_webhook,name="github-webhook"),
 
 ]

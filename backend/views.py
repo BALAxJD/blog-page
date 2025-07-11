@@ -3,6 +3,9 @@ from rest_framework import generics
 from .serializers import blogPostSerializer
 from .models import BlogPost
 import subprocess
+import json
+import django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
 
 class BlogPostListCreateView(generics.ListCreateAPIView):
     queryset=BlogPost.objects.all().order_by('-created_at')
@@ -20,15 +23,17 @@ class BlogPostDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset=BlogPost.objects.all()
     serializer_class=blogPostSerializer
 
+@csrf_exempt
 def github_webhook(request):
-     if request.method=="POST":
-          try:
-               payload=json.loads(request.body)
-               print("Webhook received:",payload)
-               return JsonResponse({"status":"success"},status=200)
-          except Exception as e:
-               return JsonResponse({"error":str(e)},status=400)
-     return JsonResponse({"message":"webhook endpoint is working"},status=200)
+    if request.method == "POST":
+        try:
+            payload = json.loads(request.body)
+            print("Webhook received:", payload)  # Logs it on the server
+            return JsonResponse({"status": "success"}, status=200)
+        except Exception as e:
+            return JsonResponse({"error": str(e)}, status=400)
+
+    return JsonResponse({"message": "Webhook endpoint is working"}, status=200)
 
 def home(request):
     return(render(request,"home.html"))
