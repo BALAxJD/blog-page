@@ -20,6 +20,16 @@ class BlogPostDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset=BlogPost.objects.all()
     serializer_class=blogPostSerializer
 
+def github_webhook(request):
+     if request.method=="POST":
+          try:
+               payload=json.loads(request.body)
+               print("Webhook received:",payload)
+               return JsonResponse({"status":"success"},status=200)
+          except Exception as e:
+               return JsonResponse({"error":str(e)},status=400)
+     return JsonResponse({"message":"webhook endpoint is working"},status=200)
+
 def home(request):
     return(render(request,"home.html"))
 
