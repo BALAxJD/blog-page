@@ -1,6 +1,5 @@
 from django.urls import path
 from .views import BlogPostListCreateView,BlogPostDetailView,github_webhook
-from 
 
 urlpatterns=[
     path('posts/',BlogPostListCreateView.as_view(),name='post-list'),
