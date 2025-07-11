@@ -17,10 +17,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from backend import views
+from backend.views import github_webhook
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/',include('backend.urls')),
+    path('webhook', github_webhook),
     path('',views.home),
     path('Top 10 populated cities/',views.b1,name='blog1'),
     path('impact of Melting glaciers/',views.b2,name="blog2"),
