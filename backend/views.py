@@ -4,7 +4,7 @@ from .serializers import blogPostSerializer
 from .models import BlogPost
 import subprocess
 import json
-import django.http import JsonResponse
+from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 
 class BlogPostListCreateView(generics.ListCreateAPIView):
