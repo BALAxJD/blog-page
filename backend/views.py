@@ -149,3 +149,6 @@ def top8(request):
 
 def top9(request):
      return (render(request,"top9.html"))
+
+def blog15(request):
+     return(render(request,"blog15.html"))
