@@ -6,6 +6,7 @@ import subprocess
 import json
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
+import os
 
 class BlogPostListCreateView(generics.ListCreateAPIView):
     queryset=BlogPost.objects.all().order_by('-created_at')
@@ -28,8 +29,17 @@ def github_webhook(request):
     if request.method == "POST":
         try:
             payload = json.loads(request.body)
-            print("Webhook received:", payload)  # Logs it on the server
-            return JsonResponse({"status": "success"}, status=200)
+            print("Webhook received:", payload)
+
+            # Pull latest changes automatically
+            repo_path = "/home/jamesdon/blog-page"
+            result = subprocess.run(["git", "-C", repo_path, "pull"], capture_output=True, text=True)
+
+            return JsonResponse({
+                "status": "success",
+                "stdout": result.stdout,
+                "stderr": result.stderr
+            })
         except Exception as e:
             return JsonResponse({"error": str(e)}, status=400)
 
