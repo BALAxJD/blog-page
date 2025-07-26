@@ -63,4 +63,5 @@ urlpatterns = [
     path("Discover the Top 7 Largest Deserts in the World: From Ice to Sand Wonders",views.top8,name='top8'),
     path("Top 5 Must-Watch Indian Web Series of 2025 That Completely Redefined Streaming Entertainment for Every Genre-Loving Viewer",views.top9,name='top9'),
     path("From Korean Dramas to Anime: How Global Streaming Trends Are Transforming Indian Entertainment Preferences in 2025",views.blog15,name='blog15'),
+    path("How Social Media Is Quietly Rewiring the Teenage Brain: What Every Parent, Teen, and Teacher Should Know",views.blog16,name='blog16'),
 ]

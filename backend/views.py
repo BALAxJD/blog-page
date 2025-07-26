@@ -162,3 +162,6 @@ def top9(request):
 
 def blog15(request):
      return(render(request,"blog15.html"))
+
+def blog16(request):
+     return(render(request,"blog16.html"))
