@@ -168,3 +168,6 @@ def blog16(request):
 
 def blog17(request):
     return(render(request,"blog17.html"))
+
+def blog18(request):
+    return(render(request,"blog18.html"))
