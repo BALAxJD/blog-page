@@ -171,3 +171,6 @@ def blog17(request):
 
 def blog18(request):
     return(render(request,"blog18.html"))
+
+def blog19(request):
+    return(render(request,"blog19.html"))
