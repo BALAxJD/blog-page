@@ -67,4 +67,5 @@ urlpatterns = [
     path("Why Overthinking Is the Real Villain in Modern Life — And How It Secretly Controls Our Daily Decisions",views.blog17,name='blog17'),
     path("Understanding the India’s Monsoon Season: How It Shapes the Economy, Agriculture, and the  Daily Life",views.blog18,name='blog18'),
     path("How the Kaveri River Continues to Shape the Culture, Agriculture, and Festival Traditions of Tamil Nadu in 2025",views.blog19,name='blog19'),
+    path("How Iceland Lives With Fire and Ice: A Journey Through Volcanoes, Glaciers, and Human Resilience in 2025",views.blog20,name='blog20'),
 ]
