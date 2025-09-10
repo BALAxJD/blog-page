@@ -69,5 +69,5 @@ urlpatterns = [
     path("How the Kaveri River Continues to Shape the Culture, Agriculture, and Festival Traditions of Tamil Nadu in 2025",views.blog19,name='blog19'),
     path("How Iceland Lives With Fire and Ice: A Journey Through Volcanoes, Glaciers, and Human Resilience in 2025",views.blog20,name='blog20'),
     path("Top 5 Green Cities in the World That Are Leading the Way Toward Sustainable Urban Living",views.top10,name='top10'),
-    path("The Role of Ayurveda and Modern Medicine: Can They Work Together for Better Health in the Modern World?",views.blog21,name='blog21'),
+    #path("The Role of Ayurveda and Modern Medicine: Can They Work Together for Better Health in the Modern World?",views.blog21,name='blog21'),
 ]
