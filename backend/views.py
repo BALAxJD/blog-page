@@ -178,3 +178,5 @@ def blog20(request):
     return(render(request,"blog20.html"))
 def top10(request):
     return(render(request,"top10.html"))
+def blog21(request):
+    return(render(request,"blog21.html"))
