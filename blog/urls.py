@@ -71,4 +71,5 @@ urlpatterns = [
     path("Top 5 Green Cities in the World That Are Leading the Way Toward Sustainable Urban Living",views.top10,name='top10'),
     path("The Role of Ayurveda and Modern Medicine: Can They Work Together for Better Health in the Modern World?",views.blog21,name='blog21'),
     path("Mental Health Awareness in the Digital Age: How to Stay Balanced, Focused, and Healthy While Living Online",views.blog22,name='blog22'),
+    path("The Power of The Morning Routines: Simple habits to Boost your Day with Calm, Happy and Confidence",views.blog23,name='blog23'),
 ]
