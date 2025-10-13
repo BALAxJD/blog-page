@@ -72,4 +72,5 @@ urlpatterns = [
     path("The Role of Ayurveda and Modern Medicine: Can They Work Together for Better Health in the Modern World?",views.blog21,name='blog21'),
     path("Mental Health Awareness in the Digital Age: How to Stay Balanced, Focused, and Healthy While Living Online",views.blog22,name='blog22'),
     path("The Power of The Morning Routines: Simple habits to Boost your Day with Calm, Happy and Confidence",views.blog23,name='blog23'),
+    path("The Dark Side of Social Media: How Digital Burnout is Quietly Affecting Our Mental Health, Relationships, and Productivity",views.blog24,name='blog24'),
 ]
