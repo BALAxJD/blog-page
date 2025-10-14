@@ -73,4 +73,5 @@ urlpatterns = [
     path("Mental Health Awareness in the Digital Age: How to Stay Balanced, Focused, and Healthy While Living Online",views.blog22,name='blog22'),
     path("The Power of The Morning Routines: Simple habits to Boost your Day with Calm, Happy and Confidence",views.blog23,name='blog23'),
     path("The Dark Side of Social Media: How Digital Burnout is Quietly Affecting Our Mental Health, Relationships, and Productivity",views.blog24,name='blog24'),
+    path("How Ocean Pollution Is Threatening Marine Life and What We Can Still Do to Save Our Seas",views.blog25,name='blog25'),
 ]
