@@ -75,4 +75,5 @@ urlpatterns = [
     path("The Dark Side of Social Media: How Digital Burnout is Quietly Affecting Our Mental Health, Relationships, and Productivity",views.blog24,name='blog24'),
     path("How Ocean Pollution Is Threatening Marine Life and What We Can Still Do to Save Our Seas",views.blog25,name='blog25'),
     path("Exploring the Future of Space Tourism: How Private Companies Are Making Space Travel Possible for Everyone in the Coming Decade",views.blog26,name='blog26'),
+    path("The Possibility of Alien Life: Exploring Whether Humanity Is Truly Alone in the Vast Universe",views.blog27,name='blog27'),
 ]
