@@ -192,3 +192,5 @@ def blog26(request):
     return(render(request,"blog26.html"))
 def blog27(request):
     return(render(request,"blog27.html"))
+def blog28(request):
+    return(render(request,"blog28.html"))
