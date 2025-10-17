@@ -76,5 +76,5 @@ urlpatterns = [
     path("How Ocean Pollution Is Threatening Marine Life and What We Can Still Do to Save Our Seas",views.blog25,name='blog25'),
     path("Exploring the Future of Space Tourism: How Private Companies Are Making Space Travel Possible for Everyone in the Coming Decade",views.blog26,name='blog26'),
     path("The Possibility of Alien Life: Exploring Whether Humanity Is Truly Alone in the Vast Universe",views.blog27,name='blog27'),
-    path("How Video Games Are Evolving from Entertainment to Education in the Modern Digital Era of 2025",views.blo28,name='blog28'),
+    path("How Video Games Are Evolving from Entertainment to Education in the Modern Digital Era of 2025",views.blog28,name='blog28'),
 ]
