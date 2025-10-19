@@ -78,4 +78,5 @@ urlpatterns = [
     path("The Possibility of Alien Life: Exploring Whether Humanity Is Truly Alone in the Vast Universe",views.blog27,name='blog27'),
     path("How Video Games Are Evolving from Entertainment to Education in the Modern Digital Era of 2025",views.blog28,name='blog28'),
     path("The Lost Art of Writing Letters: Why Handwritten Notes Still Matter in the Digital Age of Instant Messages and Emails",views.blog29,name='blog29'),
+    path("How Tamil Nadu’s Traditional Crafts Are Reaching the Global Market and Inspiring a New Era of Cultural Pride in 2025",views.blog30,name'blog30'),
 ]
