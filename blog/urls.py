@@ -79,4 +79,5 @@ urlpatterns = [
     path("How Video Games Are Evolving from Entertainment to Education in the Modern Digital Era of 2025",views.blog28,name='blog28'),
     path("The Lost Art of Writing Letters: Why Handwritten Notes Still Matter in the Digital Age of Instant Messages and Emails",views.blog29,name='blog29'),
     path("How Tamil Nadu’s Traditional Crafts Are Reaching the Global Market and Inspiring a New Era of Cultural Pride in 2025",views.blog30,name='blog30'),
+    path("How Solar Energy Is Transforming India's Remote Villages: Lighting Homes, Powering Schools, and Fueling Rural Economies",views.blog31,name='blog31'),
 ]
