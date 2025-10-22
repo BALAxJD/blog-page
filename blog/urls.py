@@ -80,5 +80,5 @@ urlpatterns = [
     path("The Lost Art of Writing Letters: Why Handwritten Notes Still Matter in the Digital Age of Instant Messages and Emails",views.blog29,name='blog29'),
     path("How Tamil Nadu’s Traditional Crafts Are Reaching the Global Market and Inspiring a New Era of Cultural Pride in 2025",views.blog30,name='blog30'),
     path("How Solar Energy Is Transforming India's Remote Villages: Lighting Homes, Powering Schools, and Fueling Rural Economies",views.blog31,name='blog31'),
-    path("How India’s Green Entrepreneurs Are Transforming Trash into Treasure and Building a Sustainable Future for the Nation",viewds.blog32,name='blog32'),
+    path("How India’s Green Entrepreneurs Are Transforming Trash into Treasure and Building a Sustainable Future for the Nation",views.blog32,name='blog32'),
 ]
