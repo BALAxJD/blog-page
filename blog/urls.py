@@ -81,4 +81,5 @@ urlpatterns = [
     path("How Tamil Nadu’s Traditional Crafts Are Reaching the Global Market and Inspiring a New Era of Cultural Pride in 2025",views.blog30,name='blog30'),
     path("How Solar Energy Is Transforming India's Remote Villages: Lighting Homes, Powering Schools, and Fueling Rural Economies",views.blog31,name='blog31'),
     path("How India’s Green Entrepreneurs Are Transforming Trash into Treasure and Building a Sustainable Future for the Nation",views.blog32,name='blog32'),
+    path("The Hidden Power of Clay Houses in a Hotter World: How Ancient Building Techniques Are Becoming the Future of Sustainable Living",views.blog33,name='blog33'),
 ]
